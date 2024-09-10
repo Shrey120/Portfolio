@@ -80,7 +80,7 @@ const Contact = () => {
         <div className='flex flex-col xl:flex-row xl:justify-center gap-[30px] '>
           <div className='xl:w-[60%] order-2 xl:order-none'>
             <form className='flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl'>
-              <h3 className='text-4xl text-accent'>Let's work together</h3>
+              <h3 className='text-4xl text-accent'>Let&apos;s work together</h3>
               <p className='text-white/60'>
                 Let&apos;s collaborate and combine our strengths to achieve
                 great results. Together, we can create innovative solutions and
