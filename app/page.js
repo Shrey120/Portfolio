@@ -19,10 +19,10 @@ const Home = () => {
   return (
     <section className='h-full'>
       <div className='mx-auto h-full'>
-        <div className='flex flex-col items-center justify-center xl:justify-between xl:mx-80 h-full xl:flex-row xl:pt-8 xl:pb-24'>
+        <div className='flex flex-col gap-10 items-center justify-center xl:justify-between xl:mx-48 h-full xl:flex-row xl:pt-8 xl:pb-24'>
           <div className='text-center xl:text-left order-2 xl:order-none'>
             <span className='text-xl'>Software Developer</span>
-            <h1 className='h1 mb-6'>
+            <h1 className='h2 mb-6'>
               Hello I&apos;m <br />
               <span className='text-accent'>Shreyash Gupta</span>
             </h1>
