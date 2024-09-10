@@ -63,10 +63,10 @@ const Education = () => {
 
                 {/* Education Info */}
                 <div className='bg-[#27272c] p-6 rounded-lg flex-1'>
-                  <h2 className='text-2xl text-white font-semibold mb-2'>
-                    {edu.degree}
+                  <h2 className='text-2xl text-accent font-semibold mb-2'>
+                    {edu.institution}
                   </h2>
-                  <p className='text-lg text-white mb-1'>{edu.institution}</p>
+                  <p className='text-lg text-white mb-1'>{edu.degree}</p>
                   <p className='text-md text-white mb-1'>{edu.year}</p>
                   {edu.gpa ? (
                     <p className='text-md text-white'>{edu.gpa}</p>

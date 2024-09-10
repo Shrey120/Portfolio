@@ -27,7 +27,7 @@ const projects = [
       { name: "Next.js" },
       { name: "Typescript" },
       { name: "TailwindCSS" },
-      { name: "Socket io" },
+      { name: "Socketio" },
       { name: "MongoDB" },
       { name: "Shadcnui" },
     ],
@@ -109,12 +109,12 @@ const Projects = () => {
                 {project.title}
               </h2>
               <p className='text-white/60'>{project.description}</p>
-              <ul className='flex gap-4'>
+              <ul className='flex gap-4 flex-wrap'>
                 {project.stack.map((item, index) => {
                   return (
                     <li
                       key={index}
-                      className='text-xl text-accent'>
+                      className='text-xl text-accent '>
                       {item.name}
                       {index !== project.stack.length - 1 && ","}
                     </li>
