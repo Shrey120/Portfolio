@@ -82,7 +82,7 @@ const Contact = () => {
             <form className='flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl'>
               <h3 className='text-4xl text-accent'>Let's work together</h3>
               <p className='text-white/60'>
-                Let’s collaborate and combine our strengths to achieve great
+                Let's collaborate and combine our strengths to achieve great
                 results. Together, we can create innovative solutions and
                 overcome challenges effectively.
               </p>
