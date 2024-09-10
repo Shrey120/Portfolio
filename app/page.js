@@ -9,7 +9,8 @@ import { FiDownload } from "react-icons/fi";
 const Home = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/resume/ShreyashGuptaResume.pdf"; // Update the path if your CV file has a different name or location
+    link.href =
+      "https://drive.google.com/file/d/1bizUkQ6EX1hj65YMsl-HyJRYZU-jL6y9/view?usp=sharing"; // Update the path if your CV file has a different name or location
     link.download = "Shreyash_Gupta_CV.pdf"; // Specify the name for the downloaded file
     document.body.appendChild(link);
     link.click();
