@@ -9,19 +9,25 @@ const Education = () => {
       institution: "Chandigarh Group of Colleges, Mohali",
       degree: "B.Tech, Computer Science and Engineering",
       year: "June 2024",
-      gpa: "Current GPA: 8.06/10.0",
+      gpa: "Current GPA: ",
+      is: "8.06",
+      outof: "/10.0",
     },
     {
       institution: "Up Kirana Seva Samiti Vidhyalaya",
       degree: "Higher Secondary, ICSE",
       year: "March 2019",
-      percentage: "PERCENT: 84.6/100.0",
+      percentage: "PERCENT: ",
+      is: "84.6",
+      outof: "/100.0",
     },
     {
       institution: "Up Kirana Seva Samiti Vidhyalaya",
       degree: "Secondary, ICSE",
       year: "March 2017",
-      percentage: "PERCENT: 83/100.0",
+      percentage: "PERCENT: ",
+      is: "83",
+      outof: "/100.0",
     },
   ];
 
@@ -69,9 +75,17 @@ const Education = () => {
                   <p className='text-lg text-white mb-1'>{edu.degree}</p>
                   <p className='text-md text-white mb-1'>{edu.year}</p>
                   {edu.gpa ? (
-                    <p className='text-md text-white'>{edu.gpa}</p>
+                    <p className='text-md text-white'>
+                      {edu.gpa}
+                      <span className='text-red-300'>{edu.is}</span>
+                      {edu.outof}
+                    </p>
                   ) : (
-                    <p className='text-md text-white'>{edu.percentage}</p>
+                    <p className='text-md text-white'>
+                      {edu.percentage}
+                      <span className='text-red-300'>{edu.is}</span>
+                      {edu.outof}
+                    </p>
                   )}
                 </div>
               </div>
